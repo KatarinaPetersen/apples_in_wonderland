@@ -1,13 +1,56 @@
 ﻿
+/* Global settings */
 
+/* ---------------------------- General ------------------------------------ */
 
-header li {
-    text-decoration: none;
-    color: #ffffff;
+header li a {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgb(31, 14, 55) !important;
+    
+    
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* ---------------------------- Typografi ------------------------------------ */
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size:38px;
+}
+
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size:30px;
+}
+
+h3 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size:24px;
 }
 
 .navbar-brand {
     font-family: 'Berkshire Swash';
-    font-size: 24px;
+    color: rgb(31, 14, 55) !important;
+    font-size: 30px;
 }
+/* ---------------------------- Katarina settings ------------------------------------ */
+#logo {
+    height: 45px;
+    padding-top: 5px;
+}
+
+
+/* ---------------------------- Katarina settings ------------------------------------ */
