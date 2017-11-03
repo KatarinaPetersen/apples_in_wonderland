@@ -8,7 +8,6 @@
     <meta name="keywords" content="æbler, kandiseret æbler, slik, dessert, apples in wonderland, alice in wonderland">
     <meta name="author" content="Sheila og Katarina">
     <title>Apples in Wonderland</title>
-    <!-- <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet" /> -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Norican|Roboto" rel="stylesheet">
@@ -16,38 +15,37 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                        aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" title="Tilbage til forside" href="index.html">Apples in Wonderland</a>
-                    <img id="logo" class="img-responsive" src="assets/img/logo.png" />
-                </div>
-                <div id="navbar" class="collapse navbar-collapse pull-right">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a class="nav-a" title="Link til om-butikken" href="om-butikken.html">Om Butikken</a>
-                        </li>
-                        <li>
-                            <a class="nav-a" title="Link til kontakt" href="#">Kontakt</a>
-                        </li>
-
-                    </ul>
-                </div>
+        <header>
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                                aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" alt="Tilbage til forside" title="Tilbage til forside" href="index.html">Apples in Wonderland</a>
+                            <img id="logo" class="img-responsive" src="assets/img/logo.png" alt="apples in wonderland logo" title="apples in wonderland"/>
+                        </div>
+                        <div id="navbar" class="collapse navbar-collapse pull-right">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a class="nav-a" alt="Link til om butikken" title="Link til om butikken" href="om-butikken.html">Om Butikken</a>
+                                </li>
+                                <li>
+                                    <a class="nav-a" alt="Link til kontakt" title="Link til kontakt" href="#">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        
+            <div id="top-container" class="container-fluid">
+                <img class="img-responsive" src="assets/img/top-img-forside.jpg" alt="Hattemageren holder æblefest og du er inviteret" title="Hattemageren holder æblefest og du er inviteret"/>
             </div>
-        </nav>
-    </header>
-
-    <div id="top-container" class="container-fluid">
-        <img class="img-responsive" src="assets/img/top-img.jpg" />
-    </div>
 
     <div class="container">
         <div class="row">
@@ -65,100 +63,101 @@
         </div>
     </div>
 
-    <div id="nyhedsbrev-forside" class="container-fluid">
-        <div class="col-xs-12">
-            <form role="form">
-                <div class="form-group col-md-6">
-                    <h2>Tilmeld dig vores nyhedsbrev</h2>
-                    <p>Når du vælger at modtage vores nyhedsbrev, vil du kunne følge med i hvornår vi afholder events, modtage
-                        opskrifter, samt se alle de gode tilbud fra vores butik. </p>
-                </div>
-                <div id="input-area" class="form-group col-md-6">
-                    <input type="text" class="form-control input-lg nyhedsbrev-input" placeholder="Indsæt dit navn">
-                    <input type="email" class="form-control input-lg nyhedsbrev-input" placeholder="Indsæt din email adresse">
-                    <button>
-                        <img class="img-responsive" src="assets/img/button.png" />
-                    </button>
-                </div>
-            </form>
+    <div id="nyhedsbrev" class="container-fluid">
+            <div class="container">
+                <form role="form">
+                    <div class="form-group col-md-6">
+                        <h2>Tilmeld dig vores nyhedsbrev</h2>
+                        <p>Når du vælger at modtage vores nyhedsbrev, vil du kunne følge med i hvornår vi afholder events, modtage
+                            opskrifter, samt se alle de gode tilbud fra vores butik. </p>
+                    </div>
+                    <div id="input-area" class="form-group col-md-6">
+                        <input type="text" class="form-control input-lg nyhedsbrev-input" placeholder="Indsæt dit navn">
+                        <input type="email" class="form-control input-lg nyhedsbrev-input" placeholder="Indsæt din email adresse">
+                        <button>
+                            <img class="img-responsive" src="assets/img/button.png" alt="Tilmeld dig nyhedsbrev ved at trykke her" title="Tilmeld dig nyhedsbrev ved at trykke her" />
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <div class="footer" id="footer">
-                <div class="container-footer">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-3 col-xs-6">
-                            <h3> Kontakt </h3>
-                            <p>
-                                Apples in Wonderland</br>
-                                Amagertorv 18 </br>
-                                1160 København K</br>
-                            </p>
+    
+        <footer>
+            <div class="container">
+                <div class="footer" id="footer">
+                    <div class="container-footer">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-3 col-xs-6">
+                                <h3> Kontakt </h3>
+                                <p>
+                                    Apples in Wonderland</br>
+                                    Amagertorv 18 </br>
+                                    1160 København K</br>
+                                </p>
+                            </div>
+                            <div id="sitemap" class="col-md-4 col-sm-3 col-xs-6">
+                                <h3> Sitemap </h3>
+                                <ul>
+                                    <li>
+                                        <a href="index.html" alt="Link til forsiden" title="Link til forsiden"> Forside </a>
+                                    </li>
+                                    <li>
+                                        <a href="om-butikken.html" alt="Link til om-butikken" title="Link til om butikken"> Om Butikken </a>
+                                    </li>
+                                    <li>
+                                        <a href="kontakt.html" alt="Link til kontaktsiden" title="Link til kontaktsiden"> Kontakt </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 ">
+                                <ul class="social">
+                                    <li>
+                                        <a href="#">
+                                            <i class=" fa fa-facebook" alt="Link til vores facebook side" title="Link til vores facebook side"> </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-pinterest" alt="Link til vores pinterest side" title="Link til vores pinterest side"> </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-youtube" alt="Link til vores youtube side" title="Link til vores youtube side"> </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div id="sitemap" class="col-md-4 col-sm-3 col-xs-6">
-                            <h3> Sitemap </h3>
-                            <ul>
+                        <!--/.row-->
+                    </div>
+                    <!--/.container-->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                    <div class="container">
+                        <p class="pull-left"> Copyright © Apples in Wonderland 2017. All right reserved. </p>
+                        <div class="pull-right">
+                            <ul class="nav nav-pills payments">
                                 <li>
-                                    <a href="index.html"> Forside </a>
+                                    <i class="fa fa-cc-visa"></i>
                                 </li>
                                 <li>
-                                    <a href="om-butikken.html"> Om Butikken </a>
+                                    <i class="fa fa-cc-mastercard"></i>
                                 </li>
                                 <li>
-                                    <a href="om-butikken.html"> Kontakt </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 ">
-                            <ul class="social">
-                                <li>
-                                    <a href="#">
-                                        <i class=" fa fa-facebook"> </i>
-                                    </a>
+                                    <i class="fa fa-cc-amex"></i>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i class="fa fa-pinterest"> </i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-youtube"> </i>
-                                    </a>
+                                    <i class="fa fa-cc-paypal"></i>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <!--/.row-->
                 </div>
-                <!--/.container-->
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p class="pull-left"> Copyright © Apples in Wonderland 2017. All right reserved. </p>
-                <div class="pull-right">
-                    <ul class="nav nav-pills payments">
-                        <li>
-                            <i class="fa fa-cc-visa"></i>
-                        </li>
-                        <li>
-                            <i class="fa fa-cc-mastercard"></i>
-                        </li>
-                        <li>
-                            <i class="fa fa-cc-amex"></i>
-                        </li>
-                        <li>
-                            <i class="fa fa-cc-paypal"></i>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--/.footer-bottom-->
-    </footer>
+                <!--/.footer-bottom-->
+        </footer>
+    
     <!-- Seneste compiled and minified JS version af jquery og bootstrap. Indlæst vha. Content Delivery Networks (CDN)
           fra http://getbootstrap.dk/getting-started/#download-cdn og http://jquery.com/download/#using-jquery-with-a-cdn -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

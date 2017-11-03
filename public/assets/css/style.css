@@ -15,12 +15,13 @@ header .container, .navbar{
     margin-bottom: 50px;
 }
 
-#nyhedsbrev-forside {
+#nyhedsbrev {
     margin-top: 50px;
     background-image: url("../img/bottom-img.jpg"); 
+    /* padding: 0 120px; */
 }
 
-#nyhedsbrev-forside button, .newsletter-box button {
+#nyhedsbrev button, .newsletter-box button {
     background-color: rgba(30, 14, 55, 0);
     border: none;
 }
@@ -94,13 +95,13 @@ p{
 
 h1 {
     font-family: 'Berkshire Swash', cursive;
-    font-size:38px;
+    font-size:60px;
 }
 
 
 h2 {
     font-family: 'Berkshire Swash', cursive;
-    font-size:30px;
+    font-size:32px;
 }
 
 h3 {
@@ -108,7 +109,7 @@ h3 {
     font-size:24px;
 }
 
-#nyhedsbrev-forside h2, #nyhedsbrev-forside p, #nyhedsbrev-forside label {
+#nyhedsbrev h2, #nyhedsbrev p, #nyhedsbrev label {
     color: #ffffff;
 }
 
@@ -151,7 +152,7 @@ footer h3 {
 
 header li a {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
