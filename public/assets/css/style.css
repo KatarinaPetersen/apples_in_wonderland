@@ -18,6 +18,7 @@ header .container, .navbar{
 #nyhedsbrev {
     margin-top: 50px;
     background-image: url("../img/bottom-img.jpg"); 
+    background-repeat: no-repeat;
     /* padding: 0 120px; */
 }
 
@@ -71,6 +72,10 @@ footer{
     padding-bottom: 45px;
 }
 
+#sitemap {
+    padding-left: 140px;
+}
+
 .payments {
     font-size: 1.5em;
     color: #ffffff;
@@ -111,6 +116,10 @@ h3 {
 
 #nyhedsbrev h2, #nyhedsbrev p, #nyhedsbrev label {
     color: #ffffff;
+}
+
+#nyhedsbrev h2 {
+    padding-top:30px;
 }
 
 #infobox h2, #infobox h3{
@@ -192,7 +201,7 @@ header li a {
     float: left;
     height: 50px;
     line-height: 50px;
-    margin: 0 8px 0 0;
+    margin: 20px 12px 0 0;
     padding: 0;
     text-align: center;
     width: 50px;
