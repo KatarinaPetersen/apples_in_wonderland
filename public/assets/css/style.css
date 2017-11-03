@@ -1,16 +1,9 @@
 ﻿
-/* ---------------------------- Katarina settings ------------------------------------ */
 
 /* ---------------------------- General ------------------------------------ */
 
-header li a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    color: rgb(31, 14, 55) !important;
+header .container, .navbar{
+    background-color: rgb(28,152,165) !important;
 }
 
 .container-fluid {
@@ -19,22 +12,78 @@ header li a {
 
 #top-container {
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 #nyhedsbrev-forside {
-    margin-top: 150px;
-    margin-bottom: 80px;
-   
-  
+    margin-top: 50px;
     background-image: url("../img/bottom-img.jpg"); 
 }
 
-#nyhedsbrev-forside button {
+#nyhedsbrev-forside button, .newsletter-box button {
     background-color: rgba(30, 14, 55, 0);
     border: none;
 }
 
+#input-area {
+    padding-top: 50px;
+}
+
+.nyhedsbrev-input {
+    margin-bottom: 20px;
+}
+
+
+/* Infobox - Oplevelses side */
+
+#infobox {
+    margin-top:50px;
+}
+
+#colorBox1{
+    background-color: #033944;
+}
+
+#colorBox2{
+    background-color: #4d9099;
+}
+
+#colorBox3{
+    background-color: #b93035;
+}
+
+#content{
+    width:100%;
+    background-color: #033944;
+}
+
+#infobox .img-responsive{
+    margin: 10% auto;
+}
+
+footer{
+    background-color: rgb(28,152,165);
+}
+
+.container-footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.payments {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.fa {
+    margin-left: 20px;
+}
+
+.footer-bottom {
+    background-color: rgb(19,77,83);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* ---------------------------- Typography ------------------------------------ */
 
@@ -59,15 +108,26 @@ h3 {
     font-size:24px;
 }
 
-.navbar-brand {
-    font-family: 'Berkshire Swash';
-    color: rgb(31, 14, 55) !important;
-    font-size: 30px;
-}
-
-#nyhedsbrev-forside h2, #nyhedsbrev-forside label {
+#nyhedsbrev-forside h2, #nyhedsbrev-forside p, #nyhedsbrev-forside label {
     color: #ffffff;
 }
+
+#infobox h2, #infobox h3{
+    color:white;
+    text-align: center;  
+}
+#infobox p{
+    color:white;
+}
+
+footer p{
+    color:white;
+}
+
+footer h3 {
+    color: #ffffff;
+}
+
 /* ---------------------------- Images ------------------------------------ */
 
 #logo {
@@ -80,118 +140,61 @@ h3 {
 }
 
 
-/* ---------------------------- Sheila settings ------------------------------------ */
-footer {
-    background-color: #BBBBBB ;
-    margin-top: 180px;
+
+/* ---------------------------- Links and buttons ------------------------------------ */
+
+.navbar-brand {
+    font-family: 'Berkshire Swash';
+    color: #ffffff !important;
+    font-size: 30px;
 }
 
-.container-footer {
-    padding: 45px;
-}
-
-.full {
-    width: 100%;
-}
-
-.gap {
-    height: 30px;
-    width: 100%;
-    clear: both;
-    display: block;
-}
-
-.footer p {
-    margin: 0;
-}
-
-.footer img {
-    max-width: 100%;
-}
-
-.footer h3 {
-    border-bottom: 1px solid #BAC1C8 ;
-    color: #5f6768 ;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    padding: 40px 0 10px;
+header li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ffffff !important;
+}
+
+.footer a{
+    color:white;
 }
 
 .footer ul {
-    font-size: 13px;
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
-    margin-top: 15px;
-    color: #5f6768 ;
 }
 
-   .footer ul li a {
-        padding: 0 0 5px 0;
-        display: block;
-    }
-
-.footer a {
-    color: #5f6768 ;
+.footer ul li a {
+    color: #EE8726;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-.supportLi h4 {
-    font-size: 20px;
-    font-weight: lighter;
-    line-height: normal;
-    margin-bottom: 0 !important;
-    padding-bottom: 0;
-}
-
-.newsletter-box input#appendedInputButton {
-    background: #FFFFFF ;
-    display: inline-block;
-    float: left;
-    height: 30px;
-    clear: both;
-    width: 100%;
-}
-
-.newsletter-box .btn {
-    border: medium none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
-    border-radius: 3px;
-    display: inline-block;
-    height: 40px;
-    padding: 0;
-    width: 100%;
-    color: #fff;
-}
-
-.newsletter-box {
-    overflow: hidden;
-}
-
-.bg-gray {
-    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
-    box-shadow: 0 1px 0 #B4B3B3 ;
+.footer ul li a:hover {
+    color: #E95425;
 }
 
 .social li {
-    background: none repeat scroll 0 0 #B5B5B5 ;
-    border: 2px solid #B5B5B5 ;
+    background: none repeat scroll 0 0 #3c5a75 ;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
     float: left;
-    height: 36px;
-    line-height: 36px;
+    height: 50px;
+    line-height: 50px;
     margin: 0 8px 0 0;
     padding: 0;
     text-align: center;
-    width: 36px;
+    width: 50px;
     transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -webkit-transition: all 0.5s ease 0s;
@@ -199,40 +202,22 @@ footer {
     -o-transition: all 0.5s ease 0s;
 }
 
-   .social li:hover {
-        transform: scale(1.15) rotate(360deg);
-        -webkit-transform: scale(1.1) rotate(360deg);
-        -moz-transform: scale(1.1) rotate(360deg);
-        -ms-transform: scale(1.1) rotate(360deg);
-        -o-transform: scale(1.1) rotate(360deg);
-    }
-
-   .social li a {
-        color: #EDEFF1 ;
-    }
-
-   .social li:hover {
-        border: 2px solid #2c3e50 ;
-        background: #2c3e50 ;
-    }
-
-   .social li a i {
-        font-size: 16px;
-        margin: 0 0 0 5px;
-        color: #EDEFF1 !important;
-    }
-
-.footer-bottom {
-    background: #E3E3E3 ;
-    border-top: 1px solid #DDDDDD ;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.social li:hover {
+    border: 2px solid #2c3e50 ;
+    background: #2c3e50 ;
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
 }
 
-   .footer-bottom p.pull-left {
-        padding-top: 6px;
-    }
+.social li a {
+    color: #EDEFF1 ;
+}
 
-.payments {
-    font-size: 1.5em;
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
 }
